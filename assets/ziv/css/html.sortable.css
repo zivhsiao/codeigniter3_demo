@@ -1,0 +1,22 @@
+
+.list-group-item{
+  padding: 10px 20px !important;
+  border: 1px solid #ddd;
+}
+
+.sortable > *,
+.sortable-with-handle .sortable-handle {
+  cursor: move;
+}
+
+.sortable-placeholder {
+  display: block;
+  height: 40px;
+  margin-top: 1px;
+  background-color: #c8e6f5;
+  border: 1px dashed #e4eaec;
+}
+.sortable.list-group-gap .sortable-placeholder,
+.sortable-with-handle.list-group-gap .sortable-placeholder {
+  margin-bottom: 2px;
+}

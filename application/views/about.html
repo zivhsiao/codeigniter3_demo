@@ -1,0 +1,14 @@
+{% include "include/header.tpl.html" %}
+
+<div class="container">
+  {% for key, row in news %}
+  <div class="jumbotron">
+    <h1>{{ row['title'] }}</h1>
+    <p>
+      {{ row['content']|raw }}
+    </p>
+  </div>
+  {% endfor %}
+</div> <!-- /container -->
+
+{% include "include/footer.tpl.html" %}
